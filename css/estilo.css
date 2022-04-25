@@ -7,9 +7,15 @@
                          'principal formulario'
                          'rodape formulario';
     height: 100vh;
+    font-family: Arial;
 }
-
-header{background-color:blue; grid-area:cabecalho;}
-main{background-color: red;grid-area:principal;} 
-aside{background-color: chartreuse;grid-area:formulario;}
-footer{background-color:yellow;grid-area:rodape;}
+/*cabeçalho*/
+header{ grid-area:cabecalho;}
+.logo{display: flex;align-items: center; padding: 10px 30px;}
+.logo img{width:80px;}
+/*principal*/
+main{grid-area:principal;} 
+/*formulario*/
+aside{grid-area:formulario;}
+/* rodapé*/
+footer{grid-area:rodape;}
